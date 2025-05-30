@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    user-select: none;
+}
+* a{
+    text-decoration: none;
+    color: #fff;
+}
+* li{
+    list-style: none;
+}
+html{
+    font-size: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+.container{
+    position: relative;
+    min-height: 100vh;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    display: flex;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/2/27/Lom_Sak_Cliff_%28I%29.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: brightness(20%);
+}
+.menu{
+    position: relative;
+    width: 85%;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    font-size: 1.5rem;
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul li{
+    padding: 0 5px;
+}
+.menu ul li a{
+    font-weight: bold;
+    color: #fff;
+}
+.content{
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.content .grid-card1,.grid-card2,.grid-card3,.grid-card4,.grid-card5{
+    width: 50%;
+    position: relative;
+    padding: 20px;
+}
+.grid-card1{
+    display: grid;
+    grid-gap: 25px;
+}
+.grid-card2{
+    display: grid;
+    grid-gap: 25px;
+}
+.grid-card3{
+    display: grid;
+    grid-gap: 25px;
+}
+.grid-card4{
+    display: grid;
+    grid-gap: 25px;
+}
+.grid-card5{
+    display: grid;
+    grid-gap: 25px;
+}
+.grid-card1 .box{
+    width: 100%;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    position: relative;
+    transition: .4s;
+}
+.grid-card2 .box{
+    width: 100%;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    position: relative;
+    transition: .4s;
+}
+.grid-card3 .box{
+    width: 100%;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    position: relative;
+    transition: .4s;
+}
+.grid-card4 .box{
+    width: 100%;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    position: relative;
+    transition: .4s;
+}
+.grid-card5 .box{
+    width: 100%;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    position: relative;
+    transition: .4s;
+}
+.bg1{
+    background-image: url("https://cms.dmpcdn.com/travel/2018/09/26/29a861b2-ee47-41af-b66a-d6dc2a171cb3.jpg");
+}
+.bg2{
+    background-image: url("https://cms.dmpcdn.com/travel/2018/09/26/a0e6607c-10ae-4549-8e5d-2b5a0e6cd81e.jpg");
+}
+.bg3{
+    background-image: url("https://cms.dmpcdn.com/travel/2018/09/26/ac124a82-f18d-496b-80a2-5a8c3eb48e75.jpg");
+}
+.bg4{
+    background-image: url("https://cms.dmpcdn.com/travel/2018/09/26/b164d339-2886-4d0c-8c8e-387bf3a13135.jpg");
+}
+.bg5{
+    background-image: url("https://cms.dmpcdn.com/travel/2018/09/26/1b372ec4-23dd-45a0-ab98-81aefa8cddd6.jpg");
+}
+.bg6{
+    background-image: url("https://cms.dmpcdn.com/travel/2018/09/26/cd06e65c-94ed-4912-bb07-5b9ebcb3ab2d.jpg");
+}
+.bg7{
+    background-image: url("https://cms.dmpcdn.com/travel/2018/09/26/12f5c846-fa19-48de-80a2-e495e14972bc.jpg");
+}
+.bg8{
+    background-image: url("https://cms.dmpcdn.com/travel/2018/09/26/71088175-2e37-4052-9dd3-9c1dc0c58f5a.jpg");
+}
+.bg9{
+    background-image: url("https://cms.dmpcdn.com/travel/2018/09/26/5de18e12-1e04-4ba0-a411-175ac7cfa417.jpg");
+}
+.bg10{
+    background-image: url("https://travel.mthai.com/app/uploads/2019/08/68891800_2354751094602729_7324459213088882688_n.jpg");
+}
+.content .box h3{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.content .box:hover{
+    transform: translateY(-15px);
+}

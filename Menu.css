@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    user-select: none;
+}
+* a{
+    text-decoration: none;
+    color: red;
+}
+* li{
+    list-style: none;
+}
+html{
+    font-size: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+.container{
+    position: relative;
+    min-height: 100vh;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    display: flex;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/2/27/Lom_Sak_Cliff_%28I%29.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: brightness(20%);
+}
+.menu{
+    position: relative;
+    width: 85%;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    font-size: 1.5rem;
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul li{
+    padding: 0 5px;
+}
+.menu ul li a{
+    font-weight: bold;
+    color: #fff;
+}
+.content{
+    position: absolute;
+    top: 20;
+    left: 0;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/2/27/Lom_Sak_Cliff_%28I%29.jpg);
+    background-size: cover;
+    transform: translate(25%,0%);
+    border-radius: 25px;
+}
+.content .logo h1{
+    font-family: "Oswald", sans;
+    font-size: 4rem;
+    font-weight: normal;
+    line-height: 5.5rem;
+    color: black;
+}
+.content .logo h3{
+    font-size: 1.35rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+}
+.content1{
+    width: 65%;
+    height: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    display: flex;
+}
+.grid-card1,.grid-card2{
+    width: 30%;
+    padding: 20px;
+    display: grid;
+    grid-gap: 25px;
+}
+.grid-card1 .box{
+    border-radius: 25px;
+    transition: .4s;
+}
+.grid-card2 .box{
+    border-radius: 25px;
+    transition: .4s;
+}
+.grid-card1 .box a h3{
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-card2 .box a h3{
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information{
+    color: #fff;
+}
+img{
+    align-items: center;
+    display: flex;
+}
+.bg1{
+    background: url("o5.jpg");
+    background-size: cover;
+}
+.bg2{
+    background: url("o4.jpg");
+    background-size: cover;
+}
+.bg3{
+    background: url("o3.jpg");
+    background-size: cover;
+}
+.bg4{
+    background: url("o2.jpg");
+    background-size: cover;
+}
+.bg5{
+    background: url("o1.jpg");
+    background-size: cover;
+}
+.bg6{
+    background: url("o10.jpg");
+    background-size: cover;
+}
+.bg7{
+    background: url("o9.jpg");
+    background-size: cover;
+}
+.bg8{
+    background: url("o8.jpg");
+    background-size: cover;
+}
+.bg9{
+    background: url("o7.jpg");
+    background-size: cover;
+}
+.bg10{
+    background: url("o6.jpg");
+    background-size: cover;
+}
+.content1 .box:hover{
+    transform: translateY(-15px);
+}
